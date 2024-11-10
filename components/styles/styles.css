@@ -1,0 +1,162 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    background-color: white;
+}
+
+section{
+    padding: 20px;
+}
+
+header{
+    position: sticky;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-left: 30px;
+    padding-right: 100px;
+    margin-top: -15px;
+    top: 0;
+    width: 95%;
+
+}
+
+#About-Me-container{
+    display: flex;
+}
+
+#name{
+    flex-direction: column;
+    line-height: 10px;
+    background-color: black;   
+}
+
+#name h1{
+    font-size: 35px;
+}
+
+ul{
+    height: 60px;
+    list-style: none;
+
+}
+.header{
+    display: inline-block;
+    margin: 20px;
+    font-family: Spectral;
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.header:hover{
+    background-color:white;
+    transition: 0.3s all;
+    color: black;
+}
+
+#Academic-Background-Section{
+    text-align: center;
+}
+
+p{
+    font-family: Spectal, sans-serif;
+}
+
+
+#Skills-Section{
+    text-align: center;
+}
+
+#skills-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.skill{
+    margin: 15px;
+}
+
+#Hobbies-Section{
+    text-align: center;
+}
+
+#Hobbies-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.hobbies{
+    margin:15px;
+}
+
+#Fun-Fact-Section{
+    text-align: center;
+}
+
+#Contact-Section{
+    text-align: center;
+}
+
+img{
+    height: 90px;
+    width: 90px;
+}
+
+#java{
+    width: 60px;
+}
+
+#Hoobies-container{
+    display: flex;
+}
+#email{
+    color: black;
+}
+#email:hover{
+    color: white;
+    background-color: black;
+    transition: 0.3s all;
+}
+#eu{
+    width: 350px;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-family: Karla, sans-serif;
+}
+
+h1{
+    font-family: Karla, sans-serif;
+    font-size: large;
+}
+
+#hi{
+    font-family: Poppins, sans-serif;
+}
+
+#AM{
+    font-size: 60px;
+}
+
+#AB, #S, #H, #FF{
+    font-size: 40px;
+}
+
+#email{
+    padding: 7px;
+    border-radius: 10px;
+}
+
